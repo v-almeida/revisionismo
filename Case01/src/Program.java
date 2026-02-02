@@ -25,7 +25,29 @@ public class Program {
             livro1.ano
         );
 
-        
+        /*Livro 02:
+        Código: 9865PLO
+        Título: Java, Como programar
+        Autores: Harvey Deitel
+        ISBN: 0130341517
+        Ano: 2015 */
+
+        Livro livro2 = new Livro();
+        System.out.println("Livro 02\n");
+
+        livro2.codigo = "9865PLO";
+        livro2.titulo = "Java, Como programar";
+        livro2.autores = new String[] {
+            "Harvey Deitel"
+        };
+        livro2.isbn = "0130341517";
+        livro2.ano = 2015;
+
+        System.out.format("\nCodigo: %s \nTitulo: %s \nAutores: %s \nISBN: %s \nAno: %s \n\n ",
+            livro2.codigo, livro2.titulo, String.join(" ", livro2.autores), livro2.isbn,
+            livro2.ano
+        );
+
 
 
         
