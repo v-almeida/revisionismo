@@ -42,4 +42,37 @@ public class Ponto {
 
     // 3. Calcule a distância do ponto1 ao ponto2;
 
+    public double calcularDistancia (Ponto outroPonto){
+
+        double DiferencaX = outroPonto.x - this.x;
+        double DiferencaY = outroPonto.y - this.y;
+
+        double distancia = Math.sqrt(Math.pow(DiferencaX, 2) + Math.pow(DiferencaY, 2));
+
+        return distancia;
+    }
+
+    // Getters
+
+    public double GetX(){
+        return x;
+    }
+
+    public double GetY(){
+        return y;
+    }
+
+    // Setters
+
+    public void setX(double x){
+
+        this.x = x;
+    }
+
+    public void setY(double y){
+        this.y = y;
+    }
+
+    
+
 }
