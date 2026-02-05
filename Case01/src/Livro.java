@@ -25,5 +25,4 @@ public class Livro {
     String[] autores;
     String isbn;
     int ano;
-
 }
