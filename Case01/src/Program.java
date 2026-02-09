@@ -20,7 +20,7 @@ public class Program {
         livro1.isbn = "0130819336";
         livro1.ano = 2005;
 
-        System.out.format("\nCodigo: %s \nTitulo: %s \nAutores: %s \nISBN: %s \nAno: %s \n\n",
+        System.out.format("\nCodigo: %s \nTitulo: %s \nAutores: %s \nISBN: %s \nAno: %d \n\n",
             livro1.codigo, livro1.titulo, String.join(",", livro1.autores),
             livro1.isbn, livro1.ano
         );
@@ -33,13 +33,18 @@ public class Program {
         Ano: 2015 */
 
         Livro livro2 = new Livro();
-        System.out.println("\nLivro 2\n");
+        System.out.println("Livro 2");
 
         livro2.codigo = "9865PLO";
         livro2.titulo = "Java, Como programar";
         livro2.autores = new String[]{"Harvey Deitel"};
         livro2.isbn = "0130341517";
         livro2.ano = 2015;
+
+        System.out.format("\nCodigo: %s \nTitulo: %s \nAutores: %s \nISBN: %s \nAno: %d \n\n",
+            livro2.codigo, livro2.titulo, String.join(" ", livro2.autores),
+            livro2.isbn, livro2.ano
+        );
 
 
     }
