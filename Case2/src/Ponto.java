@@ -15,64 +15,10 @@ quadrado utilizar Math.pow(valor, 2) e para extração da raiz quadrada utilizar
 
 */
 
-
 public class Ponto {
     
-    // classe que representa um Ponto no espaço bidimensional. 
-
     double x;
     double y;
-
-    // 1. Crie um objeto ponto1 usando o primeiro construtor;
-
-    public Ponto(){
-
-        x = 0;
-        y = 0;
-    }
-
-    // 2. Crie um objeto ponto2 na posição (2,5);
-
-    public Ponto(double x, double y){
-
-        this.x = x;
-        this.y = y;
-
-    }
-
-    // 3. Calcule a distância do ponto1 ao ponto2;
-
-    public double calcularDistancia (Ponto outroPonto){
-
-        double DiferencaX = outroPonto.x - this.x;
-        double DiferencaY = outroPonto.y - this.y;
-
-        double distancia = Math.sqrt(Math.pow(DiferencaX, 2) + Math.pow(DiferencaY, 2));
-
-        return distancia;
-    }
-
-    // Getters
-
-    public double GetX(){
-        return x;
-    }
-
-    public double GetY(){
-        return y;
-    }
-
-    // Setters
-
-    public void setX(double x){
-
-        this.x = x;
-    }
-
-    public void setY(double y){
-        this.y = y;
-    }
-
     
 
 }
