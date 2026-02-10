@@ -21,7 +21,8 @@ public class Ponto {
     double y;
 
     public Ponto() {
-        
+        x = 0;
+        y = 0;
     }
 
     public Ponto (int x, int y){
@@ -29,6 +30,8 @@ public class Ponto {
         this.x = x;
         this.y = y;
     }
+
+    
     
 
 }
