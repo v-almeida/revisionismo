@@ -15,6 +15,20 @@ public class Program {
             livro1.isbn, livro1.ano
         );
 
+        Livro livro2 = new Livro();
+        System.out.println("Livro 02");
+
+        livro2.codigo = "9865PLO";
+        livro2.titulo = "Java, Como programar";
+        livro2.autores = new String[]{"Harvey Deitel"};
+        livro2.isbn = "0130341517";
+        livro2.ano = 2015;
+
+        System.out.format("\nCódigo: %s \nTitulo: %s \nAutores: %s \nISBN: %s \nAno: %d \n\n", 
+            livro2.codigo, livro2.titulo, String.join(" ", livro2.autores),
+            livro2.isbn, livro2.ano
+        );
+
 
     }
 }
