@@ -15,6 +15,12 @@ public class Program {
             livro1.isbn, livro1.ano
         );
 
+        Livro livro2 = new Livro();
+
+        System.out.println("\nLivro 2\n");
+
+        
+
 
     }
 }
