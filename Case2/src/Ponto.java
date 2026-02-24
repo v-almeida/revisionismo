@@ -55,11 +55,11 @@ public class Ponto {
 
     // Setters
 
-    public void setX(){
+    public void setX(double x){
         this.x = x;
     }
     
-    public void setY(){
+    public void setY(double y){
         this.y = y;
     }
 

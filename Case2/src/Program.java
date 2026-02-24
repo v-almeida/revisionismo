@@ -15,6 +15,14 @@ public class Program {
         System.out.printf("Distância entre o ponto1 ao ponto2: %.2f%n", distancia1);
 
 
+        // 5. Altere o valor de x para 10 no ponto1;
+
+        ponto1.setX(10);
+
+        // 6. Altere o valor de y para 3 no ponto1; 
+
+        ponto1.setY(3);
+
 
     }
 }
