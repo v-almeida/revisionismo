@@ -53,7 +53,15 @@ public class Ponto {
         return y;
     }
 
+    // Setters
+
+    public void setX(){
+        this.x = x;
+    }
     
+    public void setY(){
+        this.y = y;
+    }
 
     
     
