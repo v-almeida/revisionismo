@@ -5,10 +5,6 @@ public class Program {
 
         Ponto ponto1 = new Ponto();
 
-        // 2. Crie um objeto ponto2 na posição (2,5); 
-
-        Ponto ponto2 = new Ponto(2,5);
-
 
 
 
