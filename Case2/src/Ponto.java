@@ -20,6 +20,17 @@ public class Ponto {
     double x;
     double y;
 
+    public Ponto() {
+        
+    }
+
+    public Ponto(double x, double y){
+        this.x = x;
+        this.y  = y;
+    }
+
+    
+
     
     
 
