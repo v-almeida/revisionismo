@@ -9,6 +9,11 @@ public class Program {
 
         Ponto ponto2 = new Ponto(2,5);
 
+        // 3. Calcule a distância do ponto1 ao ponto2; 
+
+        double distancia1 = ponto1.calcularDistancia(ponto2);
+        System.out.printf("Distância entre o ponto1 ao ponto2: %.2f%n", distancia1);
+
 
 
     }
