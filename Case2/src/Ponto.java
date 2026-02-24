@@ -43,6 +43,16 @@ public class Ponto {
 
     }
 
+    // Getters
+
+    public double getX(){
+        return x;
+    }
+
+    public double getY(){
+        return y;
+    }
+
     
 
     
