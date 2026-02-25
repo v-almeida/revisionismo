@@ -31,6 +31,8 @@ public class Program {
 
         ponto1.setY(3);
 
+        System.out.println("Valor Y alterado para " + ponto1.getY());
+
 
     }
 }
