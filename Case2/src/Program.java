@@ -22,9 +22,9 @@ public class Program {
             distancia2
         );
 
-        // 5. Altere o valor de x para 10 no ponto1;
+        // 5. Altere o valor de x para 11 no ponto1;
 
-        ponto1.setX(10);
+        ponto1.setX(11);
         System.out.println("Valor de X alterado para " + ponto1.getX());
 
         // 6. Altere o valor de y para 3 no ponto1; 
