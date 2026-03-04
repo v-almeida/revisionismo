@@ -17,51 +17,7 @@ quadrado utilizar Math.pow(valor, 2) e para extração da raiz quadrada utilizar
 
 public class Ponto {
     
-    double x;
-    double y;
-
-    public Ponto() {
-
-        x = 0;
-        y = 0;
-        
-    }
-
-    public Ponto(double x, double y){
-        this.x = x;
-        this.y  = y;
-    }
-
-    public double calcularDistancia(Ponto outroPonto){
-
-        double DiferencaX = outroPonto.x - this.x;
-        double DiferencaY = outroPonto.y - this.y;
-
-        double distancia = Math.sqrt(Math.pow(DiferencaY, 2) + Math.pow(DiferencaX, 2)); 
-        
-        return distancia;
-
-    }
-
-    // Getters
-
-    public double getX(){
-        return x;
-    }
-
-    public double getY(){
-        return y;
-    }
-
-    // Setters
-
-    public void setX(double x){
-        this.x = x;
-    }
     
-    public void setY(double y){
-        this.y = y;
-    }
 
     
     
