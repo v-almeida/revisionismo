@@ -4,6 +4,10 @@ public class Program {
        // 1. Crie um objeto ponto1 usando o primeiro construtor; 
        
        Ponto ponto1 = new Ponto();
+
+       // 2. Crie um objeto ponto2 na posição (2,5); 
+
+       Ponto ponto2 = new Ponto(2,5);
         
 
 
