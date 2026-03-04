@@ -17,7 +17,8 @@ quadrado utilizar Math.pow(valor, 2) e para extração da raiz quadrada utilizar
 
 public class Ponto {
     
-    
+    double x;
+    double y;
 
     
     
