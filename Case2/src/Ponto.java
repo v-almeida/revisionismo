@@ -22,10 +22,19 @@ public class Ponto {
     double x;
     double y;
 
+    // O construtor Ponto( ): cria um ponto na origem (0,0); 
+
     public Ponto(){
 
         x = 0;
         y = 0;
+    }
+
+    // O Ponto(x: double, y: double): nas coordenadas x e y;
+    
+    public Ponto(double x, double y){
+        this.x = x;
+        this.y = y;
     }
 
 
