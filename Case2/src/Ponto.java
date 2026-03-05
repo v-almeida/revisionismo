@@ -31,11 +31,22 @@ public class Ponto {
     }
 
     // O Ponto(x: double, y: double): nas coordenadas x e y;
-    
+
     public Ponto(double x, double y){
         this.x = x;
         this.y = y;
     }
+
+    public double calcularDistancia(Ponto outroPonto){
+        double DiferencaX = outroPonto.x - this.x;
+        double DiferencaY = outroPonto.y - this.y;
+
+        double distancia = Math.sqrt(Math.pow(DiferencaX, 2) + Math.pow(DiferencaY, 2));
+
+        return distancia;
+    }
+
+
 
 
 
