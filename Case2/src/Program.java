@@ -14,6 +14,14 @@ public class Program {
        double distancia1 = ponto1.calcularDistancia(ponto2);
        System.out.printf("A distância do ponto2 às coodernadas (7,2) é %.2f ", distancia1);
 
+       // 5. Altere o valor de x para 10 no ponto1; 
+
+       ponto1.setX(10);
+
+       System.out.println("\nValor de x agora é " + ponto1.getX());
+
+       // 6. Altere o valor de y para 3 no ponto1; 
+
         
 
 
