@@ -46,6 +46,16 @@ public class Ponto {
         return distancia;
     }
 
+    // Getters
+
+    public double getX(){
+        return x;
+    }
+
+    public double getY(){
+        return y;
+    }
+
 
 
 
