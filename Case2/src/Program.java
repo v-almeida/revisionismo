@@ -22,6 +22,10 @@ public class Program {
 
        // 6. Altere o valor de y para 3 no ponto1; 
 
+       ponto1.setY(3);
+
+       System.out.println("Valor de y alterado para " + ponto1.getY());
+
         
 
 
