@@ -20,6 +20,9 @@ Ano: 2015
 
 public class Livro {
 
-   
-
+   String codigo;
+   String titulo;
+   String[] autores;
+   String isbn;
+   int ano;
 }
