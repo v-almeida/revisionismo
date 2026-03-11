@@ -25,4 +25,9 @@ public class Ponto {
         this.x = x;
         this.y = y;
     }
+
+    public Ponto(){
+        x = 0;
+        y = 0;
+    }
 }
