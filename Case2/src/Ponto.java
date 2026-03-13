@@ -30,4 +30,14 @@ public class Ponto {
         x = 0;
         y = 0;
     }
+
+    // 3. Calcule a distância do ponto1 ao ponto2;
+
+    public double calcularDistancia(Ponto outroPonto){
+        double DiferencaX = outroPonto.x - this.x;
+        double DiferencaY = outroPonto.y - this.y;
+
+        double distancia = Math.sqrt(Math.pow(DiferencaX, 2) + Math.pow(DiferencaY, 2));
+        return distancia;
+    }
 }
