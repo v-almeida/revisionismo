@@ -9,6 +9,13 @@ public class Program {
         //2. Crie um objeto ponto2 na posição (2,5); 
 
         Ponto ponto2 = new Ponto(2,5);
+        System.out.println("Criado objeto ponto2 na posição 2,5");
+
+        // 3. Calcule a distância do ponto1 ao ponto2;
+
+        double distancia1 = ponto1.calcularDistancia(ponto2);
+        System.out.printf("Distancia do ponto1 ao ponto2: %.2f%n ", distancia1);
+
 
     }
 }
